@@ -1,0 +1,62 @@
+body {
+  font-family: "Poppins", serif;
+  background-color: blanchedalmond;
+}
+
+.navbar {
+  background-color: rgb(251, 242, 228);
+}
+
+.nav-link {
+  opacity: 0.6;
+}
+
+.name-navbar {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+header {
+  margin: 80px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 44px;
+  margin-top: 50px;
+}
+
+header h2 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.profile-img {
+  max-width: 200px;
+  border-radius: 100px;
+  border: double 3px burlywood;
+  display: block;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.about-me-section {
+  max-width: 1100px;
+}
+
+.about-me-section p {
+  text-align: justify;
+  opacity: 0.7;
+}
+
+.btn-costumize {
+  background-color: aqua;
+}
