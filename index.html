@@ -73,7 +73,7 @@
 
       <section class="about-me-section">
         <h2>About Me</h2>
-        <p>
+        <p class="mb-4">
           Hi! I'm Sofia Pastor, a Junior Front-End Developer based in Portugal.
           Through my training, I have gained hands-on experience in HTML, CSS,
           JavaScript, React, and more. I enjoy solving problems and bringing
@@ -87,96 +87,103 @@
 
       <section class="projects">
         <h2>My Projects</h2>
-        <p>
+        <p class="mb-5">
           Here are a few projects I’ve worked on. Click on any project to learn
           more about the challenges, solutions, and the technologies used.
         </p>
 
-        <div class="row">
-          <!-- Project 1 -->
-          <div class="col-sm-6 col-md-4 mb-4">
-            <div class="card">
-              <img
-                src="./src/images/weather-react-app.png"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Weather App</h5>
-                <p class="card-text">
-                  A weather app that provides real-time weather data based on
-                  user input, utilizing both OpenWeather and Unsplash APIs.
-                  Users can search for a city, view current weather conditions,
-                  and see the corresponding animated weather icon. The app also
-                  features dynamic background images based on the searched city.
-                  <br />
-                  Built with React and Axios for API integration, and Bootstrap
-                  for a responsive, clean design, ensuring usability across
-                  devices.
-                </p>
-                <a href="/projects#project1" class="btn btn-primary"
-                  >See Details</a
-                >
-              </div>
-            </div>
+        <div class="row align-items-center mb-5">
+          <div class="col-sm-6">
+            <img
+              src="./src/images/weather-react-app.png"
+              class="img-fluid"
+              alt="Project 1"
+            />
           </div>
-
-          <!-- Project 2 -->
-          <div class="col-sm-6 col-md-4 mb-4">
-            <div class="card">
-              <img
-                src="./src/images/surfboard-selector.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Surfboard Selector</h5>
-                <p class="card-text">
-                  A web app that uses artificial intelligence to recommend the
-                  best surfboard based on user preferences, including skill
-                  level, surf conditions, and desired features. Users answer a
-                  series of questions, and the AI algorithm provides tailored
-                  surfboard suggestions. Built using JavaScript for the logic
-                  and an AI API for recommendations, with a user-friendly
-                  interface designed to guide users through the selection
-                  process.
-                </p>
-                <a href="/projects#project2" class="btn btn-primary"
-                  >See Details</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3 -->
-          <div class="col-sm-6 col-md-4 mb-4">
-            <div class="card">
-              <img
-                src="./src/images/dictionary-project.png"
-                class="card-img-top"
-                alt="Project 3"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Dictionary</h5>
-                <p class="card-text">
-                  A dictionary app that allows users to search for words and
-                  view their meanings, phonetics, and grammatical forms, powered
-                  by a dictionary API. The app also fetches relevant images for
-                  the searched word from Unsplash to provide a visual context.
-                  Built with React for dynamic content rendering, Axios for API
-                  integration, and Bootstrap for a responsive and user-friendly
-                  design.
-                </p>
-                <a href="/projects#project3" class="btn btn-primary"
-                  >See Details</a
-                >
-              </div>
-            </div>
+          <div class="col-sm-6">
+            <h5>Weather App</h5>
+            <p>
+              A weather app that provides real-time weather data based on user
+              input, utilizing both OpenWeather and Unsplash APIs. Users can
+              search for a city, view current weather conditions, and see the
+              corresponding animated weather icon. The app also features dynamic
+              background images based on the searched city.
+              <br />
+              Built with React and Axios for API integration, and Bootstrap for
+              a responsive, clean design, ensuring usability across devices.
+            </p>
+            <a href="/projects#project1" class="btn btn-primary">See Details</a>
           </div>
         </div>
 
-        <a href="/projects" class="btn btn-secondary mt-4">View All Projects</a>
+        <div class="row align-items-center mb-5">
+          <div class="col-sm-6">
+            <h5>Dictionary</h5>
+            <p>
+              A dictionary app that allows users to search for words and view
+              their meanings, phonetics, and grammatical forms, powered by a
+              dictionary API. The app also fetches and display relevant images
+              for the searched word from Unsplash to provide a visual context.
+              Built with React for dynamic content rendering, Axios for API
+              integration, and Bootstrap for a responsive and user-friendly
+              design.
+            </p>
+            <a href="/projects#project2" class="btn btn-primary">See Details</a>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="./src/images/dictionary-project.png"
+              class="card-img-top"
+              alt="Project 3"
+            />
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <img
+              src="./src/images/surfboard-selector.png"
+              class="card-img-top"
+              alt="Project 2"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h5>Surfboard Selector</h5>
+            <p>
+              A web app that uses artificial intelligence to recommend the best
+              surfboard based on user preferences, including skill level, surf
+              conditions, and desired features. Users answer a series of
+              questions, and the AI algorithm provides tailored surfboard
+              suggestions. Built using JavaScript for the logic and an AI API
+              for recommendations, with a user-friendly interface designed to
+              guide users through the selection process.
+            </p>
+            <a href="/projects#project2" class="btn btn-primary">See Details</a>
+          </div>
+        </div>
+
+        <a href="/projects" class="btn btn-secondary mt-5 mb-5"
+          >View All Projects</a
+        >
       </section>
+
+      <section class="contact">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <h2>Let's Collaborate</h2>
+            <p>
+              Have a question, proposal, or an idea you'd like to collaborate
+              on? Feel free to reach out!
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <a href="/" class="btn btn-primary">Contact me</a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        Coded by <a href="https://github.com/sofia-pastor">Sofia Pastor</a>.
+      </footer>
     </div>
   </body>
 </html>
