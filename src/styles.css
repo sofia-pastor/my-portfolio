@@ -1,23 +1,36 @@
+:root {
+  --secondary-color: rgb(178, 223, 219);
+  --accent-color: rgb(213, 204, 78);
+}
+
 body {
   font-family: "Poppins", serif;
-  background-color: blanchedalmond;
+  background-color: #c3d3df;
+  color: #37474f;
 }
 
 .navbar {
-  background-color: rgb(251, 242, 228);
+  background-color: #2c6f76;
 }
 
 .nav-link {
   opacity: 0.6;
+  color: rgb(245, 245, 245);
 }
 
 .name-navbar {
+  color: rgb(245, 245, 245);
   font-size: 20px;
   line-height: 1;
   opacity: 1;
 }
 
+.navbar .nav-link.active {
+  color: rgb(245, 245, 245);
+}
+
 .nav-link:hover {
+  color: rgb(245, 245, 245);
   opacity: 1;
 }
 
@@ -25,12 +38,13 @@ header {
   margin: 100px 0px;
   padding: 20px;
   text-align: center;
-  border-bottom: double 1px burlywood;
+  border-bottom: solid 1px var(--accent-color);
 }
 
 h1 {
-  font-size: 44px;
   margin-top: 80px;
+  font-size: 44px;
+  line-height: 1.5;
 }
 
 h3 {
@@ -41,7 +55,7 @@ h3 {
 .profile-img {
   max-width: 200px;
   border-radius: 100px;
-  border: double 3px burlywood;
+  border: double 3px var(--accent-color);
   display: block;
   margin: 0 auto;
   padding: 1px;
@@ -60,6 +74,8 @@ section h2 {
 section p {
   text-align: justify;
   opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .contact {
@@ -76,6 +92,14 @@ section p {
 }
 
 .btn-costumize {
-  background-color: aqua;
+  background-color: var(--secondary-color);
   margin: 0 auto;
+  border: solid 1px var(--accent-color);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
 }
