@@ -1,6 +1,8 @@
 :root {
+  --primary-color: rgb(44, 111, 118);
   --secondary-color: rgb(178, 223, 219);
   --accent-color: rgb(213, 204, 78);
+  --shadow: 3px 3px 8px rgb(0, 0, 0, 0.6);
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 }
 
 .navbar {
-  background-color: #2c6f76;
+  background-color: var(--primary-color);
 }
 
 .nav-link {
@@ -35,7 +37,7 @@ body {
 }
 
 header {
-  margin: 100px 0px;
+  margin: 100px 0 0;
   padding: 20px;
   text-align: center;
   border-bottom: solid 1px var(--accent-color);
@@ -78,6 +80,39 @@ section p {
   line-height: 1.5;
 }
 
+.about-me-section {
+  border-bottom: solid 1px var(--accent-color);
+}
+
+.about-me-section a {
+  margin: 20px auto 50px;
+  padding: 10px 30px;
+}
+
+.projects p {
+  text-align: center;
+  margin: 20px 0 60px;
+}
+
+.projects img {
+  border-radius: 5px;
+}
+
+.projects .btn-costumize {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.projects .all-projects-btn {
+  display: block;
+  margin: 100px auto 120px;
+  max-width: 600px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px;
+}
+
 .contact {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 15px;
@@ -92,14 +127,32 @@ section p {
 }
 
 .btn-costumize {
+  font-size: 18px;
+  padding: 10px 20px;
   background-color: var(--secondary-color);
-  margin: 0 auto;
   border: solid 1px var(--accent-color);
+  transition: all ease-in-out 300ms;
+  box-shadow: var(--shadow);
+}
+
+.btn-costumize:hover {
+  background-color: var(--accent-color);
+  border: solid 1px var(--secondary-color);
+  transform: scale(1.05);
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: var(--primary-color);
 }
