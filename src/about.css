@@ -4,6 +4,9 @@
   --accent-color: rgb(213, 204, 78);
   --shadow: 3px 3px 8px rgb(0, 0, 0, 0.6);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Poppins", serif;
@@ -73,6 +76,10 @@ p {
   padding-bottom: 60px;
 }
 
+.bio p {
+  margin-bottom: 20px;
+}
+
 .profile-img {
   max-width: 350px;
   border-radius: 100px;
@@ -140,5 +147,21 @@ p {
 }
 
 .contact a:hover {
+  color: var(--primary-color);
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
   color: var(--primary-color);
 }

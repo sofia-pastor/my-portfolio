@@ -4,6 +4,9 @@
   --accent-color: rgb(213, 204, 78);
   --shadow: 3px 3px 8px rgb(0, 0, 0, 0.6);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Poppins", serif;
