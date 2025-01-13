@@ -91,7 +91,14 @@ h4 {
   padding: 25px;
 }
 
+.project-links {
+  display: block;
+
+  margin: 0 auto;
+}
+
 .project-links a {
+  display: block;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   background-color: var(--primary-color);
@@ -177,4 +184,10 @@ footer a {
 
 footer a:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .project-links {
+    text-align: center;
+  }
 }
